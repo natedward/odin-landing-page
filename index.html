@@ -3,56 +3,73 @@
     <head>
         <title>Odin Landing Page</title>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
 
     <body>
         <header>
-            <ul>
-                <li>Header logo</li>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-
+            <container class="hero-content">
+                <img class="logo" src="images/logo.jpg" alt="logo">
+                <h1 class="header-text">The Lily Pad</h1>
+                <nav>
+                    <ul class="nav-links">
+                        <li>header link one</li>
+                        <li>header link two</li>
+                        <li>header link three</li>
+                    </ul>
+                </nav>
+            </container>
         </header>
+        
 
         <div class="description">
-            <h1>
-                This Website Is Awesome
-            </h1>
-            <h4>
-                This website hase some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast.
-            </h4>
-            <button>Sign up</button>
+            <div class="description-text">
+                <h1>
+                    This Website Is Awesome
+                </h1>
+                <h4>
+                    This website hase some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast.
+                </h4>
+                <button>Sign up</button>
+            </div>
+            <div class="description-pic">
+                <h1>this will be a pic</h1>
+            </div>
         </div>
 
         <div class="information">
-            <h1>Some random information.</h1>
-            <div>
-                <h4>this is some subtext under and image or illustration</h4>
+            <div class="information-text">
+                <h1>Some random information.</h1>
             </div>
-            <div>
-                <h4>this is some subtext under and image or illustration</h4>
-            </div>
-            <div>
-                <h4>this is some subtext under and image or illustration</h4>
-            </div>
-            <div>
-                <h4>this is some subtext under and image or illustration</h4>
+            <div class="information-pics">
+                <div>
+                    <h4>this is some subtext under and image or illustration</h4>
+                </div>
+                <div>
+                    <h4>this is some subtext under and image or illustration</h4>
+                </div>
+                <div>
+                    <h4>this is some subtext under and image or illustration</h4>
+                </div>
+                <div>
+                    <h4>this is some subtext under and image or illustration</h4>
+                </div>
             </div>
         </div>
 
-        <div class="testimonials">
+        <div class="quote">
             <h1>This is an inspiring quote, or a testimonial from a customer.</h1>
-            <h4>-Guys Name</h4>
+            <h4 class="quote-name">-Guys Name</h4>
         </div>
 
-        <div class="sign up prompt">
+        <div class="sign-up-prompt">
             <h2>Call to action time!</h2>
             <h4>sign up for our product or else</h4>
             <button>Sign up</button>
         </div>
+
+    
 
         <footer>
             <h6>copyright @ The Odin Project 2022</h6>
